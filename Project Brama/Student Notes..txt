@@ -1,0 +1,43 @@
+
+The javascript feature used is when the screen resolution uses a mobile resolution a menu icon will appear in the upper right corner
+when pressed the navbar menu will be available on the right
+
+and the menu icon changes to the close or x icon,
+icon close or x is used to close the navbar
+
+
+For the following article content are the image sources I use:
+
+background image
+https://unsplash.com/photos/dzFB8xeWg1M
+
+logo
+https://www.pngwing.com/id/search?q=bromo
+
+gunung penanjakan
+https://www.agentwisatabromo.com/perbedaan-penanjakan-1-dan-penanjakan-2-gunung-bromo.html
+
+lembah widodaren
+https://bromosurabayatravel.com/2019/07/20/gunung-widodaren-bromo-surabaya/
+
+gunung batok
+https://phinemo.com/sejarah-gunung-batok-sayembara-yang-gagal-dari-rara-anteng/
+
+Pura Luhur Poten
+https://www.pegipegi.com/travel/pura-luhur-poten-wisata-budaya-dekat-gunung-bromo-yang-menawan/
+
+Seruni Point
+https://travel.kompas.com/read/2022/10/23/203100127/rute-ke-seruni-point-spot-panorama-unggulan-di-gunung-bromo
+
+Pasir Berbisik
+https://www.javatravel.net/pasir-berbisik-gunung-bromo
+
+or you can directly click on the image drawn directly to the source of the image.
+
+for the contents of the content I took a quote from wikipedia.
+URL : https://id.wikipedia.org/wiki/Mount_Bromo
+
+
+
+
+

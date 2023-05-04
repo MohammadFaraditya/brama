@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  position: fixed;
+  background-color: #10054d;
+  width: 100%;
+  z-index: 9999;
+  color: wheat;
+}
+
+/* Start CSS logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  padding-left: 15px;
+  font-size: 2rem;
+}
+/* End CSS logo */
+
+/* Start CSS Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  order: 3;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+
+nav ul li a:hover {
+  background-color: #787a91;
+  border-radius: 2px;
+  color: #10054d;
+  padding: 5px;
+}
+
+#icon {
+  order: 1;
+  display: none;
+}
+
+/* End CSS Navbar */
+
+/* main CSS start */
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-content h2 {
+  color: #10054d;
+}
+
+.article-content {
+  flex: 4;
+  padding: 1rem;
+}
+
+.shadow {
+  box-shadow: -1px 2px 4px 0px rgba(18, 18, 18, 1);
+  padding: 1rem;
+}
+
+/* main CSS end */
+
+/* Start CSS article image */
+
+.image img {
+  width: 100%;
+  position: relative;
+}
+
+.image {
+  position: relative;
+  opacity: 0.8;
+  color: white;
+}
+
+.image-content {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  font-size: 2rem;
+}
+
+.image-content h3 {
+  font-size: 1.5rem;
+  text-shadow: 5px 3px 4px #000000;
+}
+
+.image-content h1 {
+  text-shadow: 5px 3px 4px #000000;
+}
+
+.image-content span {
+  border-top: 5px solid #10054d;
+  color: #928f8f;
+}
+
+/* End CSS article image */
+
+/* article #history CSS start */
+#history {
+  margin-top: 20px;
+  display: flex;
+  text-align: justify;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+#history section {
+  width: 40%;
+}
+/* article #history CSS end */
+
+/* article #wisata CSS start */
+#wisata {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 40px;
+}
+
+.tempat-wisata {
+  margin-top: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.tempat-wisata section {
+  width: 45%;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 7px 7px 3px -4px rgba(21, 31, 98, 1);
+}
+
+.tempat-wisata section h2 {
+  padding: 1rem;
+}
+
+.tempat-wisata section img {
+  width: 100%;
+}
+/* article #wisata CSS end */
+
+/* Aside CSS start */
+aside {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 800px;
+  gap: 4rem;
+}
+
+.profile img {
+  width: 200px;
+}
+
+/* Aside CSS end */
+
+/* footer CSS start */
+
+footer {
+  padding: 20px;
+  color: rgb(185, 178, 178);
+  background-color: #151f62;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* footer CSS end */
+
+/* Start Responsive */
+
+@media screen and (max-width: 1200px) {
+  main .main-content {
+    flex-flow: column nowrap;
+  }
+  .tempat-wisata {
+    flex-direction: row;
+  }
+  .tempat-wisata {
+    width: 100%;
+  }
+  aside {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .image-content {
+    font-size: 130%;
+  }
+
+  .image-content h3 {
+    font-size: 100%;
+  }
+  #history {
+    flex-direction: column;
+  }
+
+  #history section {
+    width: 100%;
+  }
+  .tempat-wisata {
+    flex-direction: column;
+  }
+
+  .tempat-wisata section {
+    width: 100%;
+  }
+  aside {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  #icon {
+    display: block;
+    z-index: 10;
+  }
+
+  header {
+    flex-direction: row;
+  }
+
+  nav {
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    background-color: #10054d;
+    right: -100%;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: -200px;
+  }
+
+  nav ul li {
+    padding-top: 15px;
+  }
+
+  nav ul li a {
+    color: #787a91;
+  }
+
+  #close {
+    display: none;
+  }
+
+  .image-content {
+    font-size: 100%;
+  }
+
+  .image-content h3 {
+    font-size: 80%;
+  }
+}
+
+/* End Responsive */
